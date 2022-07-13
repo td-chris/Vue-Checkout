@@ -1,12 +1,16 @@
 <template>
   <div>
-    <h1>App</h1>
+    <main-form />
   </div>
 </template>
 
 <script>
+import mainForm from '@/components/Form/main-form'
 export default {
   name: 'App',
+  components : {
+    mainForm
+  }
 }
 </script>
 
